@@ -1,0 +1,17 @@
+{
+  "name": "captcha",
+  "version": "1.0.0",
+  "description": "Captcha bot that sends captcha to user to verify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "captcha"
+  ],
+  "author": "Sattish Shewkani 2020",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.0.1"
+  }
+}
