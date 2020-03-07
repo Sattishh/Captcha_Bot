@@ -15,4 +15,4 @@ client.on("ready", () => {
 client.on('message', message => {
 
 })
-client.login("Njg0MDEyNTk2MzY1NjIzMzUw.XmNQ3w.4KVj_-yONYOylcVnFFCXJtqRHdI")
+client.login()
