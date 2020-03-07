@@ -15,4 +15,4 @@ client.on("ready", () => {
 client.on('message', message => {
 
 })
-client.login()
+client.login(process.env.token)
