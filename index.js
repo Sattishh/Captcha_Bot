@@ -7,7 +7,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
     let guild = client.users.size
     console.log(guild)
-let statuses = [`In Development :construction:`,';help | ;invite'];
+let statuses = ['In Development',';help | ;invite'];
     setInterval(function(){
         let status = statuses[Math.floor(Math.random()*statuses.length)];
         // using setPresence()
@@ -15,7 +15,7 @@ let statuses = [`In Development :construction:`,';help | ;invite'];
         // client.user.setPresence({ activity: { name: status }, status:'online' });
 
     }, 10000) // Runs interval every 10 seconds
-})
+});
 
 client.on('message', message => {
         if (message.content.startsWith(';dm')) {
