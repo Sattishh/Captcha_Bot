@@ -7,14 +7,14 @@ const client = new Discord.Client();
 client.on("ready", () => {
     let guild = client.users.size
     console.log(guild)
-let statuses = ['In Development',';help | ;invite'];
+let statuses = ['In Development 🚧',';help | ;invite'];
     setInterval(function(){
         let status = statuses[Math.floor(Math.random()*statuses.length)];
         // using setPresence()
         client.user.setPresence({ game: { name:status},status: 'dnd' });
         // client.user.setPresence({ activity: { name: status }, status:'online' });
 
-    }, 10000) // Runs interval every 10 seconds
+    }, 5000) // Runs interval every 5 seconds
 });
 
 client.on('message', message => {
